@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888}
+.page{width:1080px;height:1920px;position:relative;overflow:hidden;font-family:"Liberation Serif",Georgia,serif;margin-bottom:20px}
+.mast{position:absolute;top:70px;left:0;right:0;text-align:center;font-size:190px;letter-spacing:14px;line-height:1;font-weight:700}
+.sub{position:absolute;top:275px;left:0;right:0;text-align:center;font-size:30px;letter-spacing:12px;text-transform:uppercase}
+.hl{position:absolute;left:70px;right:70px;line-height:.95;font-weight:700}
+.it{font-style:italic;font-weight:400}
+.small{position:absolute;font-size:34px;letter-spacing:3px;text-transform:uppercase}
+.img{position:absolute;background-size:cover;background-position:center}
+.cap{position:absolute;font-size:30px;letter-spacing:4px;text-transform:uppercase}
+.foot{position:absolute;bottom:60px;left:70px;right:70px;display:flex;justify-content:space-between;font-size:30px;letter-spacing:3px;text-transform:uppercase}
+
+/* 1 cover: Kareline */
+#p1{background:#e9d9c8;color:#2b1b12}
+#p1 .photo{left:140px;top:350px;width:800px;height:887px;background-image:url(assets/kareline.jpg);border:10px solid #fff;box-shadow:0 30px 60px rgba(0,0,0,.25)}
+#p1 .hl{top:1290px;font-size:118px}
+#p1 .it{color:#9a5a2f}
+#p1 .small{top:1650px;left:70px;font-size:26px;letter-spacing:1px}
+#p1 .badge{position:absolute;right:60px;top:1290px;width:190px;height:190px;border-radius:50%;background:#2b1b12;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;font-size:24px;letter-spacing:1px;text-transform:uppercase;line-height:1.2;transform:rotate(-8deg)}
+
+/* 2 skin */
+#p2{background:linear-gradient(#f4f6f7,#cfe3e6);color:#16363b}
+#p2 .a{left:70px;top:360px;width:560px;height:745px;background-image:url(assets/aqua.jpg);border-radius:30px}
+#p2 .b{left:660px;top:360px;width:350px;height:538px;background-image:url(assets/age.jpg);border-radius:30px}
+#p2 .hl{top:1230px;font-size:140px}
+#p2 .cap{left:70px;top:1600px;font-size:30px}
+
+/* 3 nutri */
+#p3{background:#5a0000;color:#fbe9ee}
+#p3 .a{left:40px;top:360px;width:500px;height:600px;background-image:url(assets/collagen.jpg);border-radius:30px}
+#p3 .b{left:560px;top:520px;width:480px;height:520px;background-image:url(assets/gummies.jpg);border-radius:30px}
+#p3 .hl{top:1230px;font-size:130px}
+#p3 .it{color:#f3b9c9}
+#p3 .cap{left:70px;top:1650px;font-size:30px}
+
+/* 4 men */
+#p4{background:#1a1511;color:#f1dfc3}
+#p4 .a{left:50px;top:420px;width:980px;height:714px;background-image:url(assets/man.jpg);border-radius:20px}
+#p4 .hl{top:1210px;font-size:150px}
+#p4 .it{color:#d49a4a}
+#p4 .cap{left:70px;top:1660px;font-size:32px}
+
+/* 5 makeup */
+#p5{background:#f7e3e3;color:#4a1f2b}
+#p5 .a{left:60px;top:380px;width:960px;height:396px;background-image:url(assets/makeup.jpg);border-radius:24px}
+#p5 .photo{left:230px;top:830px;width:620px;height:687px;background-image:url(assets/kareline.jpg);border:10px solid #fff;box-shadow:0 20px 50px rgba(0,0,0,.25)}
+#p5 .hl{top:1570px;font-size:120px;text-align:center}
+#p5 .it{color:#b23a5c}
+#p5 .cap{left:0;right:0;text-align:center;top:1820px;font-size:30px}
+</style></head><body>
+
+<div class="page" id="p1">
+  <div class="mast">FARMASI</div><div class="sub">Edición Influencer · Kareline</div>
+  <div class="img photo"></div>
+  <div class="hl">Belleza con <span class="it">propósito</span></div>
+  <div class="small">Únete: farmasi.de/karelinaramosalba/register/beautyinfluencer</div>
+  <div class="badge">New<br>Influencer</div>
+</div>
+
+<div class="page" id="p2">
+  <div class="mast">SKIN</div><div class="sub">Dr. C. Tuna · Aqua &amp; Age Reversist</div>
+  <div class="img a"></div><div class="img b"></div>
+  <div class="hl">Tu rutina, <span class="it">tu momento</span></div>
+  <div class="cap">Cuidado de la piel · Farmasi</div>
+</div>
+
+<div class="page" id="p3">
+  <div class="mast">NUTRI</div><div class="sub">Nutriplus by Farmasi</div>
+  <div class="img a"></div><div class="img b"></div>
+  <div class="hl">Come, brilla, <span class="it">repite</span></div>
+  <div class="cap">Suplementos alimenticios</div>
+</div>
+
+<div class="page" id="p4">
+  <div class="mast">HOMBRE</div><div class="sub">Shooter's Man · Set de regalo</div>
+  <div class="img a"></div>
+  <div class="hl">Estilo que <span class="it">se nota</span></div>
+  <div class="cap">Perfume · After shave · Body wash</div>
+</div>
+
+<div class="page" id="p5">
+  <div class="mast">GLAM</div><div class="sub">Makeup Set · Farmasi</div>
+  <div class="img a"></div><div class="img photo"></div>
+  <div class="hl">Tu look, <span class="it">tus reglas</span></div>
+  <div class="cap">Farmasi Influencer · Kareline</div>
+</div>
+</body></html>
